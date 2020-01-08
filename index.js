@@ -29,6 +29,6 @@ function currentLine(line) {
     for (let i = 1; i < line.length; i++) {
         currentLine += ` ${(i+1).toString()}. ${line[i]},`;
     }
-    return currentLine.slice(0, currentLine.length);
+    return currentLine.slice(1, currentLine.length);
   }
 }
